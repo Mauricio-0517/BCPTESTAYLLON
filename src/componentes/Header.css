@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.header{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    padding: 15px 0px;
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(45deg,#1b335c,#0745b0) ;
+    box-shadow: 0 5px 18px rgba(109,70,51,.2);
+}
+.bandera{
+    margin-right: 30px;
+}
+.header-body{
+    width: 60%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.logo-bcp{
+    height: 80%;
+}
+.header-body p{
+    font-size: 50px;
+}

@@ -1,0 +1,45 @@
+.cuerpo-fondo{
+    background: white;
+    height: 100vh;
+}
+.cuerpo{
+    background-image: url(https://www.bcp.com.bo/Content/images/varios_principal/bcp_plomo.svg);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contenedor-tabla{
+    margin-top: 20px;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(109,70,51,.2);
+}
+.tabla {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .tabla th {
+    background: #f26e29;
+    color: white;
+    padding: 8px 10px; /* Ajusta el relleno según tus preferencias */
+  }
+  
+  .tabla td {
+    border: none; /* Elimina los bordes de las celdas de datos */
+    text-align: center;
+    padding: 8px; /* Ajusta el relleno según tus preferencias */
+  }
+  
+
+.tabla tr{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
